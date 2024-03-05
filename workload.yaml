@@ -1,6 +1,8 @@
 $schema: "1.0"
 name: "devbox-customization"
 tasks:
-  - name: choco
+  - name: git-clone
+    description: Clone this repository into C:\Workspaces
     parameters:
-      package: vscode
+      repositoryUrl: https://github.com/Dorisls/LJ-new-devbox-customization.git
+      directory: C:\Workspaces
